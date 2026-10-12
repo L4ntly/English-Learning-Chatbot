@@ -59,7 +59,7 @@ A comprehensive, AI-powered personal English learning assistant and chatbot. My 
 ## Phase 3 - Automatic Quiz Generation
 
 **Objective**
-- Generate interactive, context-aware fill-in-the-blank vocabulary quizzes automatically using a local Ollama API.(without api key)
+- Generate interactive, context-aware fill-in-the-blank vocabulary quizzes automatically using a local Ollama API.(without an api key)
 
 
 **Generate** 

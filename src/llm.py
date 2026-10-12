@@ -6,8 +6,8 @@ import json
 # -----------------------
 # SETTINGS 
 # -----------------------
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "llama3.2"
+OLLAMA_URL = "your-ollama-url-address"
+MODEL = "your-model-name"
 # --------------------------------
 def json_ayikla(metin):
     """LLM'in verdiği metnin içinden sadece JSON kısmını çeker."""

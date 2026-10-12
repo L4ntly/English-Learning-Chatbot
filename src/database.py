@@ -6,7 +6,7 @@ server = 'localhost'
 database = 'EnglishLearningDB'
 
 conn_str = (
-        "DRIVER=ODBC Driver 18 for SQL SERVER;"
+        "DRIVER=your-sql-server-odbc-connection;"
         f"SERVER={server};"
         f"DATABASE={database};"
         "Trusted_Connection=yes;"
@@ -56,7 +56,7 @@ def get_words_without_enrichment():
             conn.close()
             
 # ------------------------------------
-# LLM'den Gelen Soruyu SQL'e yaz
+# LLM'den Gelen Soruyu SQL'e yazar
 # ------------------------------------
 def insert_quiz_question(
         word,
